@@ -18,6 +18,9 @@ import Cnt from './Components/To/Cnt';
 import Slider from './Components/ImageSlider/Slider';
 import Home from './Components/Query/Home';
 import Details from './Components/Query/Details';
+import Didmount from './Components/Mount/Didmount';
+import Cntext from './Components/Context/Cntext';
+import LifeCycleDemo from './Components/Class/LifeCycleDemo';
 function App() {
 
   // const router = createBrowserasdRouter(
@@ -56,12 +59,16 @@ function App() {
       {/* <Cnt/> */}
       {/* <Slider/> */}
 
-      <Router>
+      {/* <Router>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/details' element={<Details />} />
         </Routes>
-      </Router>
+      </Router> */}
+
+      {/* <Didmount/> */}
+      {/* <Cntext/> */}
+      <LifeCycleDemo/>
     </div>
   )
 }
