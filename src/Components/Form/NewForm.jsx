@@ -1,18 +1,7 @@
 import React from 'react'
 import { useForm} from "react-hook-form"
 
-// enum GenderEnum {
-//     female= "female",
-//     male="male",
-//     other = "other"
 
-// }
-
-// interface FormValues {
-//     firstName: string;
-//     lastName: string;
-//     gender: GenderEnum;
-// }
 
 function NewForm() {
     const {
